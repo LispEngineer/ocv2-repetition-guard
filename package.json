@@ -1,0 +1,19 @@
+{
+  "name": "opencode-v2-repetition-guard",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js",
+    "./server": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "test:integration": "python3 test/runtime-probe.py"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "main": "./index.js",
+  "license": "Apache-2.0",
+  "author": "Douglas P. Fields, Jr. <symbolics@lisp.engineer>"
+}
